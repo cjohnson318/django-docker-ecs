@@ -7,6 +7,7 @@ I like to use `direnv` and `pyenv` to control my environment.
 ```
 $ touch .env.local
 $ touch .envrc
+$ touch .gitignore
 ```
 
 Add the following to `.envrc`.
@@ -20,6 +21,13 @@ Then allow `direnv` to set up the environment.
 
 ```
 $ direnv allow
+```
+
+Add the following to `.gitignore`
+
+```
+.direnv
+.env.local
 ```
 
 Create a `src` directory where your application source code will live.
