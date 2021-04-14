@@ -6,9 +6,10 @@ I like to use `direnv` and `pyenv` to control my environment.
 
 ```
 $ touch .env.local
+$ touch .envrc
 ```
 
-Add the following to `.env.local`.
+Add the following to `.envrc`.
 
 ```
 use pyenv 3.9.1
